@@ -11,8 +11,8 @@ redirect_from:
 
 Education
 ======
-** Bachelor of Information Engineering and Media | Nanyang Technological University (2022 - Present)
-* GCE 'A' Level | River Valley High School _(2016 - 2021)_
+* Bachelor of Information Engineering and Media, Nanyang Technological University (2022 - Present)
+* GCE 'A' Level, River Valley High School _(2016 - 2021)_
 
 Work experience
 ======
