@@ -2,7 +2,7 @@
 title: "Cardiovascular Prediction"
 excerpt: "Used Kaggle dataset to predict risk of cardiovascular disease using machine learning tools 
 
-![Cardiovascular Prediction](images/cardiovascularpic.jpg)
+![Cardiovascular Prediction](/images/cardiovascularpic.jpg)
 
 #<br/><img src='https://github.com/h-wenxuan/aboutme/images/cardiovascularpic.jpg'>"
 collection: portfolio
