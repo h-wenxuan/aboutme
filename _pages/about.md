@@ -19,7 +19,7 @@ My Study Notes
 
 
 
-![image](/images/500x300.png)
+<img src="{ site.baseurl }}/images/500x300.png" >
 
 
 **Software Engineering**
