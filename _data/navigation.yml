@@ -6,8 +6,8 @@ main:
   - title: "Projects"
     url: /portfolio/
 
-  - title: "Blog Posts"
-    url: /posts/ #/year-archive/
+  - title: "Tech Blog"
+    url: /year-archive/
     
   #- title: "Publications"
    # url: /publications/
