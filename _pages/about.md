@@ -7,7 +7,11 @@ redirect_from:
   - /about.html
 ---
 
-I am a year 3 Infomation Engineering and Media student in Nanyang Technological University.
+👩🏻‍💻 I am a year 3 Infomation Engineering and Media student in Nanyang Technological University.
+
+🐨 I'm currently waiting to go on exchange in UNSW next semester and I can't wait to immerse myself in their culture and experience the unique teaching styles they offer. 
+
+🔎 My interests lie in cybersecurity, cloud programming, and AI. Really excited to see what more AI can achieve in the future and how it may potentially affect our lives.
 
 A data-driven personal website
 ======
