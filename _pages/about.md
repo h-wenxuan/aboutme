@@ -16,6 +16,7 @@ redirect_from:
 My Study Notes
 ======
 📝 When I study for a topic, I like to write notes for different modules. Most of school slides are long and messy, thus writing notes makes it a lot clearer and easy to understand. I have uploaded some of my notes below for my own revision and if anyone needs it. 
+![image](/images/500x300.png)
 
 **Software Engineering**
 Overview of course
