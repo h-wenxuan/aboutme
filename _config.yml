@@ -12,8 +12,8 @@ title                    : "Wenxuan's HomePage"
 title_separator          : "-"
 name                     : &name "Wenxuan"
 description              : &description "personal description"
-url                      : "https://h-wenxuan.github.io/aboutme" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
-baseurl                  : "" # the subpath of your site, e.g. "/blog"
+url                      : "https://h-wenxuan.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+baseurl                  : "/aboutme" # the subpath of your site, e.g. "/blog"
 repository               : "h-wenxuan/aboutme"
 
 # Site Author - The following control what appear as part of the author content on the side bar.
