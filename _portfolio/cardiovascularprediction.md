@@ -1,6 +1,6 @@
 ---
 title: "Cardiovascular Prediction"
-excerpt: "Used Kaggle dataset to predict risk of cardiovascular disease using machine learning tools <br/><img src='/aboutme/images/cardiovascularpic.jpg'>"
+excerpt: "Used Kaggle dataset to predict risk of cardiovascular disease using machine learning tools <br/><img src='/aboutme/images/cardiovascularpic.jpg' style='width:300px; height:auto;'>"
 collection: portfolio
 ---
 
@@ -22,18 +22,34 @@ The various data figures that they have is:
 
 **Data Preparation**
 
-To ensure that the data we use is the most relevant to helping us achieve our objective, we cleaned the dataset by removing outliers for various features such as blood pressure and weights, also creating a BMI column from weight and height. In total, we dropped 5689 rows of data.
+To ensure the relevance of our data for achieving our objectives, we cleaned the dataset by removing outliers in features such as blood pressure and weight. Additionally, we created a BMI column from weight and height. In total, we dropped 5,689 rows of data.
 ![Cleandataset]({{ site.baseurl }}/images/cleandataset.png)
 
 **Exploratory Data Analysis**
 
-From this, we are able to gain more insights about the dataset, identify patterns and observe if there is any biasness of dataset. We used box plot, histogram and violin plot for age and BMI values. 
-![Cleandataset]({{ site.baseurl }}/images/histplot.png)
-For categorical and discrete variables, we decided to use count plot.
-![Cleandataset]({{ site.baseurl }}/images/countplot.png)
+We conducted exploratory data analysis to gain insights, identify patterns, and check for biases in the dataset. For continuous variables like age and BMI, we used box plots, histograms, and violin plots. 
+![Histplot]({{ site.baseurl }}/images/histplot.png)
 
+For categorical and discrete variables, we decided to go with count plot.
+![Countplot]({{ site.baseurl }}/images/countplot.png)
 
-We also plotted each discrete variable against cardio (column of data that shows if someone has cardiovascular disease) and coded a heatmap to identify which features have the highest correlation with cardio.
+We also plotted each discrete variable against presence of cardiovascular disease and generated a heatmap to identify which features had the highest correlation with cardiovascular disease.
+![Heapmap]({{ site.baseurl }}/images/heatmapplot.png)
 
+**Machine Learning Tools**
 
-This is an item in your portfolio. It can be have images or nice text. If you name the file .md, it will be parsed as markdown. If you name the file .html, it will be parsed as HTML. 
+We applied various machine learning models, such as feature importance analysis and decision trees, to confirm the correlation between features and the presence of cardiovascular disease. Each model was trained with 70% of random data points and tested with the remaining 30%, achieving an accuracy of around 71%.
+After identifying the top four factors influencing cardiovascular disease: age, bp_cat (Systolic & Diastolic blood pressure), BMI, and cholesterol, we dropped the rest of the features. We then prompted users to input their age, blood pressure category, BMI, and cholesterol level to predict the presence of cardiovascular disease using a logistic regression model.
+
+To evaluate our model's accuracy, we used logistic regression model to plot a confusion matrix and for True Positive Rate (TPR) and False Positive Rate (FPR) values, we used a threshold of 0.5 (standard value).
+![ConfusionMatrix]({{ site.baseurl }}/images/Matrixgraph.png)
+
+To explain True Positive Rate (TPR) and False Positive Rate (FPR), imagine a scenario with data from 10 people, where 5 have the disease and 5 do not. With a threshold of 0.45, we might correctly classify 4 out of 5 diseased individuals, giving us a TPR of 0.8. Conversely, we have misclassify 2 out of 5 healthy individuals as diseased, getting an FPR of 0.4.
+![TPR&FPRexample]({{ site.baseurl }}/images/TPRvalue.png)
+
+We also plotted an ROC (Receiver Operating Characteristic) Curve, which is plotted with TPR against FPR. When threshold is small, TPR and FPR will be 1 and we get first point on graph. By increasing the treshold and continue plotting the graph, our model achieved an AUC (Area Under Curve) value of 0.77. Thr higher the AUC value, the better the machine learning model.
+![ROCgraph]({{ site.baseurl }}/images/rocgraph.png)
+
+Although this AUC value is too low for real-life application, there are ways to improve our model, such as separating BMI by gender or using anomaly detection. Nevertheless, this project was meaningful and interesting as it demonstrated the practical application of machine learning models, providing an eye-opening experience for me.
+
+[View our complete code here.]
