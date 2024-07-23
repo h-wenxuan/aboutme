@@ -8,10 +8,10 @@ My team's objective is to be able to predict if an indicidual has cardiovascular
 
 The various data figures that they have is:
 
-1. Age | Objective Feature | age | int (days) |
-2. Height | Objective Feature | height | int (cm) |
-3. Weight | Objective Feature | weight | float (kg) |
-4. Gender | Objective Feature | gender | categorical code |
+1. Age     | Objective Feature | age    | int (days) |
+2. Height  | Objective Feature | height | int (cm)   |
+3. Weight  | Objective Feature | weight | float (kg) |
+4. Gender  | Objective Feature | gender | categorical code |
 5. Systolic blood pressure | Examination Feature | ap_hi | int |
 6. Diastolic blood pressure | Examination Feature | ap_lo | int |
 7. Cholesterol | Examination Feature | cholesterol | 1: normal, 2: above normal, 3: well above normal |
