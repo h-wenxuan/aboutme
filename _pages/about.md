@@ -19,7 +19,7 @@ My Study Notes
 
 
 
-<img src="{ site.baseurl }}/images/500x300.png" >
+![Cardiovascular Prediction]({{ site.baseurl }}/images/500x300.png)
 
 
 **Software Engineering**
