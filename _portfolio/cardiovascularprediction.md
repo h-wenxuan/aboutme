@@ -34,7 +34,7 @@ For categorical and discrete variables, we decided to go with count plot.
 ![Countplot]({{ site.baseurl }}/images/countplot.png)
 
 We also plotted each discrete variable against presence of cardiovascular disease and generated a heatmap to identify which features had the highest correlation with cardiovascular disease.
-![Heapmap]({{ site.baseurl }}/images/heatmapplot.png)
+![Heatmap]({{ site.baseurl }}/images/heatmapplot.png)
 
 **Machine Learning Tools**
 
@@ -42,10 +42,10 @@ We applied various machine learning models, such as feature importance analysis 
 After identifying the top four factors influencing cardiovascular disease: age, bp_cat (Systolic & Diastolic blood pressure), BMI, and cholesterol, we dropped the rest of the features. We then prompted users to input their age, blood pressure category, BMI, and cholesterol level to predict the presence of cardiovascular disease using a logistic regression model.
 
 To evaluate our model's accuracy, we used logistic regression model to plot a confusion matrix and for True Positive Rate (TPR) and False Positive Rate (FPR) values, we used a threshold of 0.5 (standard value).
-![ConfusionMatrix]({{ site.baseurl }}/images/Matrixgraph.png)
+![ConfusionMatrix]({{ site.baseurl }}/images/Matrixgraph.png){:width="400px" height="auto"}
 
 To explain True Positive Rate (TPR) and False Positive Rate (FPR), imagine a scenario with data from 10 people, where 5 have the disease and 5 do not. With a threshold of 0.45, we might correctly classify 4 out of 5 diseased individuals, giving us a TPR of 0.8. Conversely, we have misclassify 2 out of 5 healthy individuals as diseased, getting an FPR of 0.4.
-![TPR&FPRexample]({{ site.baseurl }}/images/TPRvalue.png)
+![TPR&FPRexample]({{ site.baseurl }}/images/TPRvalue.png){:width="500px" height="auto"}
 
 We also plotted an ROC (Receiver Operating Characteristic) Curve, which is plotted with TPR against FPR. When threshold is small, TPR and FPR will be 1 and we get first point on graph. By increasing the treshold and continue plotting the graph, our model achieved an AUC (Area Under Curve) value of 0.77. Thr higher the AUC value, the better the machine learning model.
 ![ROCgraph]({{ site.baseurl }}/images/rocgraph.png)
