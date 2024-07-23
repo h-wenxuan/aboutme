@@ -4,22 +4,22 @@ excerpt: "Used Kaggle dataset to predict risk of cardiovascular disease using ma
 collection: portfolio
 ---
 
-My team's objective is to be able to predict if an indicidual has cardiovascular disease based on serveral factors. We used a Cardiovascular Disease dataset from [kaggle](https://www.kaggle.com/datasets/sulianova/cardiovascular-disease-dataset).
+My team's objective is to be able to predict if an individual has cardiovascular disease based on serveral factors. We used a Cardiovascular Disease dataset from [kaggle](https://www.kaggle.com/datasets/sulianova/cardiovascular-disease-dataset).
 
 The various data figures that they have is:
 
-1. Age     | Objective Feature | age    | int (days) |
-2. Height  | Objective Feature | height | int (cm)   |
-3. Weight  | Objective Feature | weight | float (kg) |
-4. Gender  | Objective Feature | gender | categorical code |
-5. Systolic blood pressure | Examination Feature | ap_hi | int |
-6. Diastolic blood pressure | Examination Feature | ap_lo | int |
-7. Cholesterol | Examination Feature | cholesterol | 1: normal, 2: above normal, 3: well above normal |
-8. Glucose | Examination Feature | gluc | 1: normal, 2: above normal, 3: well above normal |
-9. Smoking | Subjective Feature | smoke | binary |
-10. Alcohol intake | Subjective Feature | alco | binary |
-11. Physical activity | Subjective Feature | active | binary |
-12. Presence or absence of cardiovascular disease | Target Variable | cardio | binary |
+1. Age (age), int (days)
+2. Height (height), int (cm)
+3. Weight (weight), float (kg)
+4. Gender (gender), categorical code (1: women, 2: men)
+5. Systolic blood pressure (ap_hi), int
+6. Diastolic blood pressure (ap_lo), int
+7. Cholesterol (cholesterol), categorical code (1: normal, 2: above normal, 3: well above normal)
+8. Glucose (gluc), categorical code (1: normal, 2: above normal, 3: well above normal)
+9. Smoking (smoke), binary (0: non-smoker, 1: smoker)
+10. Alcohol intake (alco), binary (0: non-drinker, 1: drinker)
+11. Physical activity (active), binary (0: not active, 1: active)
+12. Presence or absence of cardiovascular disease (cardio), binary (0: absence of cardiovascular disease, 1: presence of cardiovascular disease)
 
 **Data Preparation**
 
