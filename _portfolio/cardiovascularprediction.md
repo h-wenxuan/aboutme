@@ -7,7 +7,6 @@ collection: portfolio
 My team's objective is to be able to predict if an individual has cardiovascular disease based on serveral factors. We used a Cardiovascular Disease dataset from [kaggle](https://www.kaggle.com/datasets/sulianova/cardiovascular-disease-dataset).
 
 The various data figures that they have is:
-
 1. Age (age), int (days)
 2. Height (height), int (cm)
 3. Weight (weight), float (kg)
@@ -28,7 +27,11 @@ To ensure that the data we use is the most relevant to helping us achieve our ob
 
 **Exploratory Data Analysis**
 
-From this, we are able to gain more insights about the dataset, identify patterns and observe if there is any biasness of dataset. We used box plot, histogram and violin plot for age and BMI values. For categorical and discrete variables, we decided to use count plot.
+From this, we are able to gain more insights about the dataset, identify patterns and observe if there is any biasness of dataset. We used box plot, histogram and violin plot for age and BMI values. 
+![Cleandataset]({{ site.baseurl }}/images/histplot.png)
+For categorical and discrete variables, we decided to use count plot.
+![Cleandataset]({{ site.baseurl }}/images/countplot.png)
+
 
 We also plotted each discrete variable against cardio (column of data that shows if someone has cardiovascular disease) and coded a heatmap to identify which features have the highest correlation with cardio.
 
