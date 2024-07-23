@@ -54,4 +54,4 @@ We also plotted an ROC (Receiver Operating Characteristic) Curve, which is plott
 
 Although this AUC value is too low for real-life application, there are ways to improve our model, such as separating BMI by gender or using anomaly detection. Nevertheless, this project was meaningful and interesting as it demonstrated the practical application of machine learning models, providing an eye-opening experience for me.
 
-[View our complete code here.]
+[View our complete code here.](https://github.com/h-wenxuan/cardiovascular-prediction/blob/main/CardiovascularPrediction.ipynb)
