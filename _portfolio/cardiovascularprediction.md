@@ -1,6 +1,6 @@
 ---
 title: "Cardiovascular Prediction"
-excerpt: "Used Kaggle dataset to predict risk of cardiovascular disease using machine learning tools ![Cardiovascular Prediction]({{ site.baseurl }}/images/500x300.png)"
+excerpt: "Used Kaggle dataset to predict risk of cardiovascular disease using machine learning tools <br/><img src='{{ site.baseurl }}/images/500x300.png'>"
 collection: portfolio
 ---
 
