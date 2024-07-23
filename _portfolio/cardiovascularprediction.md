@@ -39,7 +39,8 @@ We also plotted each discrete variable against presence of cardiovascular diseas
 **Machine Learning Tools**
 
 We applied various machine learning models, such as feature importance analysis and decision trees, to confirm the correlation between features and the presence of cardiovascular disease. Each model was trained with 70% of random data points and tested with the remaining 30%, achieving an accuracy of around 71%.
-After identifying the top four factors influencing cardiovascular disease: age, bp_cat (Systolic & Diastolic blood pressure), BMI, and cholesterol, we dropped the rest of the features. We then prompted users to input their age, blood pressure category, BMI, and cholesterol level to predict the presence of cardiovascular disease using a logistic regression model.
+After identifying the top four factors influencing cardiovascular disease: age, bp_cat (Systolic & Diastolic blood pressure), BMI, and cholesterol, we dropped the rest of the features. We then prompted users to input their age, blood pressure category, BMI, and cholesterol level to predict the presence of cardiovascular disease using a logistic regression model. If you are interested to test it out, can click on our code below. 😁
+![Prediction]({{ site.baseurl }}/images/prediction.png)
 
 To evaluate our model's accuracy, we used logistic regression model to plot a confusion matrix and for True Positive Rate (TPR) and False Positive Rate (FPR) values, we used a threshold of 0.5 (standard value).
 
