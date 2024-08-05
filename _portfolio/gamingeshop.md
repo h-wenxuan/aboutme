@@ -4,7 +4,7 @@ excerpt: "Created a gaming e-shop with both frontend and backend features <br/><
 collection: portfolio
 ---
 
-My friend and I developed an online game purchasing website using Apache Tomcat, SQL, Java, HTML, and CSS. The project involved setting up databases, creating server-side functionality with Java, and designing a user-friendly interface with HTML and CSS.
+My friend and I developed an online game purchasing website using Apache Tomcat, SQL, Java, HTML and CSS. The project involved setting up databases, creating server-side functionality with Java, and designing a user-friendly interface with HTML and CSS.
 
 **Creating our databases**
 
