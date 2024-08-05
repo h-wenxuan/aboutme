@@ -4,25 +4,42 @@ excerpt: "Created a gaming e-shop with both frontend and backend features <br/><
 collection: portfolio
 ---
 
-For this project, my friend and I utilised Apache Tomcat to create and store database with tables in SQL language needed for our online game purchasing website. For server-side functionality, we used Java code and for client-side interfaces, we went with HTML and CSS code to build a functional and visually appealing website.
+My friend and I developed an online game purchasing website using Apache Tomcat, SQL, Java, HTML, and CSS. The project involved setting up databases, creating server-side functionality with Java, and designing a user-friendly interface with HTML and CSS.
 
 **Creating our databases**
 
-Refering to this [website](https://www3.ntu.edu.sg/home/ehchua/Programming/sql/MySQL_HowTo.html), we launched our database server and created databases with 3 tables. One for storing all the different games we have on sale, one for recording the items that customers buy and another for keeping track of all our customer's login information. 
+We utilised this [guide](https://www3.ntu.edu.sg/home/ehchua/Programming/sql/MySQL_HowTo.html) to launch our database server and establish three essential tables: 
+1. Games Table: Stores details of all games available for sale, including game titles, developer, prices, and available stock.
+2. Member Login Table: Maintains login information for all members, storing usernames, passwords, and other relevant details to manage user authentication and authorization.
+3. Purchases Table: Records customer purchases, including customer details, purchased game titles, quantities, and customer contact information.
 ![Database]({{ site.baseurl }}/images/databases.png)
 
 **Java Servlet Programming**
 
-Next, we got started on Java Servlet programming by downloading [Apache Tomcat](https://www3.ntu.edu.sg/home/ehchua/Programming/howto/Tomcat_HowTo.html). After configuring the Tomcat Server, we started writing Java Servlets in VS Code. [View our code here.](https://github.com/h-wenxuan/gaming-eshop/tree/master)
-With a website, we definitely needed a homepage and we decided to go for something simple. In our GameHomeMultiValueServlet.java code, we can see that we are directing the users to /homequerymv.html where we have created our html file for our home page. In this html file, we have formatted the buttons to bring users to the next location with addEventListener as seen in homequerymv.html file. 
-![Nextpage]({{ site.baseurl }}/images/nextpage.png)
+We continued our server-side development by downloading and configuring [Apache Tomcat](https://www3.ntu.edu.sg/home/ehchua/Programming/howto/Tomcat_HowTo.html). After familiarising ourselves with VS Code, we wrote Java Servlets to handle various functionalities of our website. [View our code here.](https://github.com/h-wenxuan/gaming-eshop/tree/master)
 
-On our home page, we have 3 buttons. One for bringing users into the game eshop to purchase the games and another for members to login or create a membership. There is also a about us page and we also added music for fun.
+**Homepage**
+
+The homepage serves as the main navigation hub for users. It is implemented with a simple design, allowing users to access [homequerymv.html file.](https://github.com/h-wenxuan/gaming-eshop/blob/master/homequerymv.html), where we use addEventListener to manage button interactions. 
+![Nextpage]({{ site.baseurl }}/images/nextpage.png)
+This file is pivotal in ensuring users can easily navigate to different sections of the website. Additionally, we added background music to enhance the user experience. On the homepage, users will find three primary buttons:
+1. Menu: Directs users to the e-shop where they can browse and purchase games.
+2. Member Login/Register: Allows users to log in or sign up for membership.
+3. About Us: Provides information about our website and the team behind it.
 ![Homepage]({{ site.baseurl }}/images/homepage.png)
 
-With our membership login page, we kept it simple. If the user has not signed up yet, they are required to sign up and the username and password is check with our userpass table to ensure that we keep track of who are the members. This makes it easier for us to sent them promotions or news regarding our eshop. Furthermore, if memebers key in wrong password or username, they will be prompted with a error message and there will also be warnings for incomplete email and phone number. After they have successfully logged in, there will be a page to show their information for them to check. This code can be seen in the LoginServlet.java. 
+**Membership Login/Register**
+
+Our login page is designed for simplicity and ease of use. New users are required to register, providing their username and password, which are validated against our userpass table. This registration process enables us to send personalized promotions and news to our members. If users enter incorrect login details, they receive an error message. We also ensure email and phone number inputs are valid. Upon successful login, users can view and verify their information. The code for these functionalities is in [LoginServlet.java](https://github.com/h-wenxuan/gaming-eshop/blob/master/WEB-INF/classes/LoginServlet.java) and [SignUpServlet.java.](https://github.com/h-wenxuan/gaming-eshop/blob/master/WEB-INF/classes/SignUpServlet.java)
 ![Login]({{ site.baseurl }}/images/loginall.png)
 
-Moving on to our most important feature, the gameing eshop, 
+**Game E-shop**
+The game e-shop is the core feature of our website. Users can browse available games, and upon selecting a game, they are redirected to a checkout page. Here, they provide their name, email, and phone number, which helps us track orders. Once an order is submitted, it is reflected in our ;order' table, and the available stock of the purchased game is automatically updated. The code managing these processes can be found in [QueryServlet.java](https://github.com/h-wenxuan/gaming-eshop/blob/master/WEB-INF/classes/QueryServlet.java) and [ConfirmServlet.java.](https://github.com/h-wenxuan/gaming-eshop/blob/master/WEB-INF/classes/ConfirmServlet.java)
+![purchase]({{ site.baseurl }}/images/checkout.png)
 
-In terms of improving our gaming e-shop, the security of our username and password definitely need to be improved as they was no hashing of password involved, making it vulnerable to attackers. Furtheremore, we could also improve on some of our features, and making it more seamless navigating between pages. 
+**Future Improvements**
+
+To enhance our gaming e-shop, we have identified several areas for improvement:
+1. Security: It would be better to implement password hashing to protect user credentials, making the system more secure against potential attacks.
+2. User Experience: It would be better to streamline navigation between pages and enhance the overall usability of the website, ensuring a smoother and more enjoyable shopping experience.
+3. Feature Enhancements: We can considering adding more features, such as personalized game recommendations, a more dynamic user dashboard, and enhanced search and filter options for easier game discovery.
