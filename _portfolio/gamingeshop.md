@@ -20,7 +20,7 @@ We continued our server-side development by downloading and configuring [Apache 
 
 **Homepage**
 
-The homepage serves as the main navigation hub for users. It is implemented with a simple design, allowing users to access [homequerymv.html file.](https://github.com/h-wenxuan/gaming-eshop/blob/master/homequerymv.html), where we use addEventListener to manage button interactions. 
+The homepage serves as the main navigation hub for users. It is implemented with a simple design, allowing users to access [homequerymv.html file](https://github.com/h-wenxuan/gaming-eshop/blob/master/homequerymv.html), where we use addEventListener to manage button interactions. 
 ![Nextpage]({{ site.baseurl }}/images/nextpage.png)
 This file is pivotal in ensuring users can easily navigate to different sections of the website. Additionally, we added background music to enhance the user experience. On the homepage, users will find three primary buttons:
 1. Menu: Directs users to the e-shop where they can browse and purchase games.
@@ -34,7 +34,7 @@ Our login page is designed for simplicity and ease of use. New users are require
 ![Login]({{ site.baseurl }}/images/loginall.png)
 
 **Game E-shop**
-The game e-shop is the core feature of our website. Users can browse available games, and upon selecting a game, they are redirected to a checkout page. Here, they provide their name, email, and phone number, which helps us track orders. Once an order is submitted, it is reflected in our ;order' table, and the available stock of the purchased game is automatically updated. The code managing these processes can be found in [QueryServlet.java](https://github.com/h-wenxuan/gaming-eshop/blob/master/WEB-INF/classes/QueryServlet.java) and [ConfirmServlet.java.](https://github.com/h-wenxuan/gaming-eshop/blob/master/WEB-INF/classes/ConfirmServlet.java)
+The game e-shop is the core feature of our website. Users can browse available games, and upon selecting a game, they are redirected to a checkout page. Here, they provide their name, email, and phone number, which helps us track orders. Once an order is submitted, it is reflected in our 'order' table, and the available stock of the purchased game is automatically updated. The code managing these processes can be found in [QueryServlet.java](https://github.com/h-wenxuan/gaming-eshop/blob/master/WEB-INF/classes/QueryServlet.java) and [ConfirmServlet.java.](https://github.com/h-wenxuan/gaming-eshop/blob/master/WEB-INF/classes/ConfirmServlet.java)
 ![purchase]({{ site.baseurl }}/images/checkout.png)
 
 **Future Improvements**
