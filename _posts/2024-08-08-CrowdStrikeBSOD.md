@@ -13,7 +13,8 @@ tags:
 
 Blue screen of death (BSOD) also known as kernel panic is a well-known issue among Windows users, It can be triggered by various factors such as outdated drivers, corrupt RAM, or malware infections. However, it shocked the world when millions of Windows systems around the world crashed on July 19, leaving airports struggling to function and impacting many critical operations. To understand the cause of this incident, we first need to delve further into the role of the kernel and the software involved. 
 
-![Kernel]({{ site.baseurl }}/images/kernel.jpg)
+<br/><img src='/aboutme/images/kernel.jpg' style='width:300px; height:auto;'>
+
 The Kernel is often referred to as the “heart” of operating systems. Its primary function is to distribute hardware resources such as CPU, RAM to processes in need and to handle process control tasks, including memory management and system calls required by programs.
 
 Moving on, CrowdStrike is a endpoint security vendor, mainly focusing on their cloud-based software product called Falcon. Falcon is designed to prevent and respond to various types of cyberattacks, thereby minimizing cybersecurity risks. When Falcon platform is used on a computer, it is able to analyse connections to and from the internet to determine if there is any malicious behavior or any threats. It is also able to utilise Artificial Intelligence and Machine Learning to analyse vast amounts of data to identify subtle patterns that might indicate malicious activity such as zero-day attacks. This is achieved through the CrowdStrike Falcon sensor, which monitors network traffic and device driver activity. To perform these tasks, Falcon operates within the Windows kernel. So how did this cause the widespread BSOD?
