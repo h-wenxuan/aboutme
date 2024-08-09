@@ -13,7 +13,7 @@ Our database tables include:
 
 **Backend Java Codes**
 
-All backend logic is housed within the 'com.example.myquestiongame' package under the Java folder of the app. A typical code setup includes the 'super.onCreate()' method, ensuring that each activity initializes correctly. The 'setContentView()' method is then used to bind the activity to its respective XML layout file, stored in the 'res/layout' folder. The XML files define the user interface components and layout.
+All backend logic is housed within the 'com.example.myquestiongame' package under the Java folder of the app accessible [here](https://github.com/h-wenxuan/quiz-app/tree/master/app/src/main/java/com/example/myquestiongame). A typical code setup includes the 'super.onCreate()' method, ensuring that each activity initializes correctly. The 'setContentView()' method is then used to bind the activity to its respective XML layout file, stored in the 'res/layout' folder. The XML files define the user interface components and layout which is accessible [here.](https://github.com/h-wenxuan/quiz-app/tree/master/app/src/main/res/layout)
 ![basicode]({{ site.baseurl }}/images/basiccode.png)
 
 **Login Page**
