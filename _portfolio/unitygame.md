@@ -4,9 +4,15 @@ excerpt: "Developed a third person shooting game using Unity's AI navigation to 
 collection: portfolio
 ---
 
-Developed a third person shooting game, featuring aim effects for precise targeting and
-utilising NavMesh to create intelligent enemy behaviours, including patrolling, chasing,
-and inflicting damage to player
-Leveraged Unity libraries and Asset Store resources with C# coding to integrated shooting
-sound effects and visual effects to enhance game immersion and entertainment
+My friend and I developed a third-person shooting game in Unity, leveraging libraries and resources from the Unity Asset Store. We used the [Third Person Character Controller](https://assetstore.unity.com/packages/essentials/starter-assets-thirdperson-updates-in-new-charactercontroller-pa-196526) for players, NPCs, and enemies, and sourced skins and animations from [Mixamo](https://www.mixamo.com/#/) for a smooth visual experience for the player.
+The game named as 'Saving the Prince' features precise aim effects for accurate targeting and utilizes NavMesh to create intelligent enemy behaviors, including patrolling, chasing the player, and inflicting damage, adding to the challenge and dynamism of the gameplay.
+
+**Player**
+For 
+
+**NPC**
+
+
+**Enemy**
+
 
