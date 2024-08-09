@@ -8,7 +8,9 @@ tags:
   - Security
 ---
 
-<br/><img src='/aboutme/images/BSOD.jpg' style='width:200px; height:auto;'>
+<br/><img src='/aboutme/images/BSOD.jpg' style='width:300px; height:auto;'>
+
+
 Blue screen of death (BSOD) also known as kernel panic is a well-known issue among Windows users, It can be triggered by various factors such as outdated drivers, corrupt RAM, or malware infections. However, it shocked the world when millions of Windows systems around the world crashed on July 19, leaving airports struggling to function and impacting many critical operations. To understand the cause of this incident, we first need to delve further into the role of the kernel and the software involved. 
 
 ![Kernel]({{ site.baseurl }}/images/kernel.jpg)
