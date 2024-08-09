@@ -1,6 +1,6 @@
 ---
 title: "Quiz App"
-excerpt: "Created a fun quiz app with Andriod Studio <br/><img src='/aboutme/images/mainpic.png' style='width:300px; height:auto;'>"
+excerpt: "Created a fun quiz app with Andriod Studio <br/><img src='/aboutme/images/imptmainpic.png' style='width:300px; height:auto;'>"
 collection: portfolio
 ---
 
@@ -13,7 +13,7 @@ Our database tables include:
 
 **Backend Java Codes**
 
-All backend logic is housed within the 'com.example.myquestiongame' package under the Java folder of the app. A typical code setup includes the 'super.onCreate(savedInstanceState)' method, ensuring that each activity initializes correctly. The 'setContentView(R.layout.activity_main)' method is then used to bind the activity to its respective XML layout file, stored in the 'res/layout' folder. The XML files define the user interface components and layout.
+All backend logic is housed within the 'com.example.myquestiongame' package under the Java folder of the app. A typical code setup includes the 'super.onCreate()' method, ensuring that each activity initializes correctly. The 'setContentView()' method is then used to bind the activity to its respective XML layout file, stored in the 'res/layout' folder. The XML files define the user interface components and layout.
 ![basicode]({{ site.baseurl }}/images/basiccode.png)
 
 **Login Page**
