@@ -17,10 +17,12 @@ Two key scripts were also added to the PlayerArmature (Player's skeleton):
 ![health]({{ site.baseurl }}/images/health.png)
 
 **NPC**
+
 Like the player, NPCs has also been equipped with capsule colliders set to 'Is Trigger.' When a player's collider interacts with an NPC's collider, a text box is triggered, providing instructions for the game and immersing the player further into the story.
 ![NPC]({{ site.baseurl }}/images/NPC.png)
 
 **Enemy**
+
 The enemies in the game are powered by Unity's sophisticated AI, utilising Unity’s NavMesh to navigate the game environment. After baking the NavMesh, it highlights the areas where enemies can move, ensuring they interact with the terrain realistically. The NavMesh Agent is then attached to each enemy to facilitates their movement, allowing them to patrol predefined points, chase the player, or disengage based on specific conditions.
 ![Enemy]({{ site.baseurl }}/images/enemy.png)
 
