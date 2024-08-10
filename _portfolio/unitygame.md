@@ -32,8 +32,6 @@ The Enemy Controller script is vital to enemy's behavior. It defines the patrol 
 
 Additional scripts for the enemy include:
 1. Enemy Damage: This script manages the interactions between the player and the enemy. When the player's collider comes into contact with the enemy's, the player takes damage, losing health. This makes close encounters with enemies risky and encourages players to strategize their movements and shooting the enemies.
-
-![health]({{ site.baseurl }}/images/health.png)
 2. Bullet Target: When the player successfully hits an enemy with a bullet, this script detects the collision and applies damage to the enemy, contributing to player progress.
 3. Enemy Stats: This script tracks the enemy's health and dictates what happens when their health is depleted. It also manages scene transitions when the player completes their task, ensuring that the game remains smooth and satisfying.
 
@@ -43,9 +41,9 @@ Additional scripts for the enemy include:
 
 To further immerse players in the world of "Saving the Prince," detailed animations and sound effects have been integrated:
 1. Impact Animations: Different animations play depending on whether a bullet hits an enemy or a wall, enhancing the realism of the game.
+2. Sound Effects: Custom sound effects for shooting and impact make combat more satisfying. These sounds also help to create an atmosphere of tension and excitement.
 
 ![hitanimation]({{ site.baseurl }}/images/hitanimation.png)
-2. Sound Effects: Custom sound effects for shooting and impact make combat more satisfying. These sounds also help to create an atmosphere of tension and excitement.
 
 **Future Improvements**
 
