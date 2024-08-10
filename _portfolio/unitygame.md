@@ -14,6 +14,7 @@ The player character is central to the game, designed with a focus on fluid move
 Two key scripts were also added to the PlayerArmature (Player's skeleton):
 1. Third person shooter controller: Manages mouse sensitivity for both normal and aiming modes, as well as determining the bullet's spawn point and direction of travel
 2. Player Stats: Tracks the player's total health, reflecting it on a health bar displayed at the top right corner and handles scene transitions when the player's health is depleted.
+
 ![health]({{ site.baseurl }}/images/health.png)
 
 **NPC**
@@ -31,16 +32,20 @@ The Enemy Controller script is vital to enemy's behavior. It defines the patrol 
 
 Additional scripts for the enemy include:
 1. Enemy Damage: This script manages the interactions between the player and the enemy. When the player's collider comes into contact with the enemy's, the player takes damage, losing health. This makes close encounters with enemies risky and encourages players to strategize their movements and shooting the enemies.
+
 ![health]({{ site.baseurl }}/images/health.png)
-3. Bullet Target: When the player successfully hits an enemy with a bullet, this script detects the collision and applies damage to the enemy, contributing to player progress.
-4. Enemy Stats: This script tracks the enemy's health and dictates what happens when their health is depleted. It also manages scene transitions when the player completes their task, ensuring that the game remains smooth and satisfying.
+2. Bullet Target: When the player successfully hits an enemy with a bullet, this script detects the collision and applies damage to the enemy, contributing to player progress.
+3. Enemy Stats: This script tracks the enemy's health and dictates what happens when their health is depleted. It also manages scene transitions when the player completes their task, ensuring that the game remains smooth and satisfying.
+
+![screens]({{ site.baseurl }}/images/screens.png)
 
 **Other Functions**
 
 To further immerse players in the world of "Saving the Prince," detailed animations and sound effects have been integrated:
 1. Impact Animations: Different animations play depending on whether a bullet hits an enemy or a wall, enhancing the realism of the game.
+
 ![hitanimation]({{ site.baseurl }}/images/hitanimation.png)
-3. Sound Effects: Custom sound effects for shooting and impact make combat more satisfying. These sounds also help to create an atmosphere of tension and excitement.
+2. Sound Effects: Custom sound effects for shooting and impact make combat more satisfying. These sounds also help to create an atmosphere of tension and excitement.
 
 **Future Improvements**
 
