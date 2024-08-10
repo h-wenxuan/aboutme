@@ -24,7 +24,7 @@ Like the player, NPCs has also been equipped with capsule colliders set to 'Is T
 
 **Enemy**
 
-The enemies in the game are powered by Unity's sophisticated AI, utilising Unity’s NavMesh to navigate the game environment. After baking the NavMesh, it highlights the areas where enemies can move, ensuring they interact with the terrain realistically. The NavMesh Agent is then attached to each enemy to facilitates their movement, allowing them to patrol predefined points, chase the player, or disengage based on specific conditions.
+The enemies in the game are powered by Unity's sophisticated AI, utilising [Unity’s NavMesh](https://www.youtube.com/watch?v=ieyHlYp5SLQ&t=97s) to navigate the game environment. After baking the NavMesh, it highlights the areas where enemies can move, ensuring they interact with the terrain realistically. The NavMesh Agent is then attached to each enemy to facilitates their movement, allowing them to patrol predefined points, chase the player, or disengage based on specific conditions.
 ![Enemy]({{ site.baseurl }}/images/enemy.png)
 
 The Enemy Controller script is vital to enemy's behavior. It defines the patrol logic, chase conditions (distance between enemy and player), and when enemies should return to patrolling if the player moves out of range. This adds a layer of unpredictability and challenge, as players must avoid suffering too much damage before completing the task.
