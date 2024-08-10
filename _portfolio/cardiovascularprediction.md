@@ -4,7 +4,7 @@ excerpt: "Used Kaggle dataset to predict risk of cardiovascular disease using ma
 collection: portfolio
 ---
 
-With this machine leearning project, my team's objective is to be able to predict if an individual has cardiovascular disease based on serveral factors. We used a Cardiovascular Disease dataset from [kaggle](https://www.kaggle.com/datasets/sulianova/cardiovascular-disease-dataset).
+With this machine learning project, my team's objective is to be able to predict if an individual has cardiovascular disease based on serveral factors. We used a Cardiovascular Disease dataset from [kaggle](https://www.kaggle.com/datasets/sulianova/cardiovascular-disease-dataset).
 
 The various data figures that they have is:
 1. Age (age), int (days)
