@@ -43,7 +43,7 @@ After attackers established a foothold in Workstation A, they moved laterally ar
 3. Windows authentication system: Attackers compromised it and obtained administrator and user credentials from domain controllers,  obtaining full control over all Windows-based servers, hosted applications and underlying data, within domain
 
 **26 June 2018**
-![Access]({{ site.baseurl }}/images/access.png)
+<br/><img src='/aboutme/images/access.png' style='width:400px; height:auto;'>
 After spreading the malware, the attacker obtained a password for “L.A. account” through either weak password or credentials in a file system and logged into at least two Citrix servers at the SGH data center. After rounds of unsuccessful attempts to log in to the SCM database from the 2 Citrix servers, the hacker succeeded on 26 June 2018 after obtaining credentials of the “A.A account” from Citrix Server 3. This allowed the hacker to make SQL queries to the database.
 
 **26 June to 4 July 2018**
