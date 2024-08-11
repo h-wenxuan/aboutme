@@ -8,6 +8,8 @@ tags:
   - Cyber Attack
 ---
 
+By: Wenxuan
+
 One of the most significant cyber attacks in Singapore's history occurred in 2018, targeting SingHealth, the largest government healthcare provider in the country. SingHealth manages a vast network of acute hospitals, national specialty centers, community hospitals, and polyclinics, making it a critical component of Singapore's healthcare system (SingHealth, 2024).
 
 **The Attack and Data Breach**
