@@ -39,7 +39,7 @@ This module teaches us about how to choose suitable software process model for t
 **Computer Communications (IE3017)**
 
 
-Access module notes [here](https://h-wenxuan.github.io/aboutme/files/ComputerCommNotes.pdf)
+Access module notes [here](https://h-wenxuan.github.io/aboutme/files/ComputerCommNotes-compressed.pdf)
 
 **Engineering Math 2 (IE2107)**
 
