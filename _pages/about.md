@@ -15,25 +15,20 @@ redirect_from:
 
 Coding
 ======
-
-| Python3 | C | JS | Solidity | GO |
-|  <img src="https://github.com/devicons/devicon/blob/master/icons/python/python-original.svg" title="Python"  alt="Python" width="55" height="55"/> |  <img src="https://github.com/devicons/devicon/blob/master/icons/c/c-original.svg" title="C"  alt="C" width="55" height="55"/> |  <img src="https://github.com/devicons/devicon/blob/master/icons/javascript/javascript-original.svg" title="JavaScript" alt="JavaScript" width="55" height="55"/> |  <img src="https://github.com/devicons/devicon/blob/master/icons/solidity/solidity-original.svg" title="Solidity" alt="Solidity" width="55" height="55"/>|  <img src="https://github.com/devicons/devicon/blob/master/icons/go/go-original-wordmark.svg" title="Solidity" alt="Solidity" width="55" height="55"/>| 
-
-
-<table>
+<table style="width:100%; border-collapse: collapse;">
   <tr>
-    <td>Python</td>
-    <td>C</td>
-    <td>JavaScript</td>
-    <td>Solidity</td>
-    <td>Go</td>
+    <td style="width:20%; text-align: center;"><strong>Python3</strong></td>
+    <td style="width:20%; text-align: center;"><strong>C</strong></td>
+    <td style="width:20%; text-align: center;"><strong>JS</strong></td>
+    <td style="width:20%; text-align: center;"><strong>Solidity</strong></td>
+    <td style="width:20%; text-align: center;"><strong>GO</strong></td>
   </tr>
   <tr>
-    <td><img src="https://github.com/devicons/devicon/blob/master/icons/python/python-original.svg" alt="Python" width="55" height="55"/></td>
-    <td><img src="https://github.com/devicons/devicon/blob/master/icons/c/c-original.svg" alt="C" width="55" height="55"/></td>
-    <td><img src="https://github.com/devicons/devicon/blob/master/icons/javascript/javascript-original.svg" alt="JavaScript" width="55" height="55"/></td>
-    <td><img src="https://github.com/devicons/devicon/blob/master/icons/solidity/solidity-original.svg" alt="Solidity" width="55" height="55"/></td>
-    <td><img src="https://github.com/devicons/devicon/blob/master/icons/go/go-original-wordmark.svg" alt="Go" width="55" height="55"/></td>
+    <td style="width:20%; text-align: center;"><img src="https://github.com/devicons/devicon/blob/master/icons/python/python-original.svg" title="Python" alt="Python" width="55" height="55"/></td>
+    <td style="width:20%; text-align: center;"><img src="https://github.com/devicons/devicon/blob/master/icons/c/c-original.svg" title="C" alt="C" width="55" height="55"/></td>
+    <td style="width:20%; text-align: center;"><img src="https://github.com/devicons/devicon/blob/master/icons/javascript/javascript-original.svg" title="JavaScript" alt="JavaScript" width="55" height="55"/></td>
+    <td style="width:20%; text-align: center;"><img src="https://github.com/devicons/devicon/blob/master/icons/solidity/solidity-original.svg" title="Solidity" alt="Solidity" width="55" height="55"/></td>
+    <td style="width:20%; text-align: center;"><img src="https://github.com/devicons/devicon/blob/master/icons/go/go-original-wordmark.svg" title="GO" alt="GO" width="55" height="55"/></td>
   </tr>
 </table>
   
