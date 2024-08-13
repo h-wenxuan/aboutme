@@ -22,7 +22,7 @@ Semester 2
 **Digital Electronics (IE2104)**
 
 
-Access notes [here](https://h-wenxuan.github.io/aboutme/files/IE2104Notes.pdf)
+Access notes [here](https://h-wenxuan.github.io/aboutme/files/IE2104Notes-compressed.pdf)
 
 **Analog Electronics (IM1002)**
 
