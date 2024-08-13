@@ -27,7 +27,7 @@ redirect_from:
     <td style="width:20%; text-align: center;"><img src='/aboutme/images/python.jpg' title="Python" alt="Python" width="55" height="55"/></td>
     <td style="width:20%; text-align: center;"><img src='/aboutme/images/C.png' title="C" alt="C" width="55" height="55"/></td>
     <td style="width:20%; text-align: center;"><img src='/aboutme/images/java.png' title="Java" alt="Java" width="55" height="55"/></td>
-    <td style="width:20%; text-align: center;"><img src='/aboutme/images/C#.png' title="C#" alt="C#" width="55" height="55"/></td>
+    <td style="width:20%; text-align: center;"><img src='/aboutme/images/Csharp.png' title="Csharp" alt="Csharp" width="55" height="55"/></td>
     <td style="width:20%; text-align: center;"><img src='/aboutme/images/HTML.png' title="HTML" alt="HTML" width="55" height="55"/></td>
   </tr>
 </table>
