@@ -10,8 +10,8 @@ main:
   - title: "Tech Blogs"
     url: /year-archive/
     
-#  - title: "Notes"
- #   url: /publications/
+  - title: "Notes"
+    url: /publications/
 
   #- title: "Talks"
    # url: /talks/    
