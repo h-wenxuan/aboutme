@@ -13,6 +13,8 @@ redirect_from:
 
 🔎 My interests lie in cybersecurity, cloud programming, and AI. Really excited to see what more AI can achieve in the future and how it may potentially affect our lives.
 
+Languages and Tools
+======
 **Coding Languages**
 
 <table style="width:100%; border-collapse: collapse;">
@@ -32,7 +34,7 @@ redirect_from:
   </tr>
 </table>
 
-**Tools for CTF's**
+**Tools for CTF**
 <table style="width:100%; border-collapse: collapse;">
   <tr>
     <td style="width:25%; text-align: center;"><strong>Wireshark</strong></td>
