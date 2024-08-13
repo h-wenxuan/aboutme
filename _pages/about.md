@@ -13,9 +13,9 @@ redirect_from:
 
 🔎 My interests lie in cybersecurity, cloud programming, and AI. Really excited to see what more AI can achieve in the future and how it may potentially affect our lives.
 
-My Study Notes
+Coding Languages
 ======
-📝 When I study for a topic, I like to write notes for different modules. Most of school slides are long and messy, thus writing notes makes it a lot clearer and easy to understand. I have uploaded some of my notes below for my own revision and if anyone needs it. 
+
 
 Certificates
 ======
