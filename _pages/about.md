@@ -13,22 +13,22 @@ redirect_from:
 
 🔎 My interests lie in cybersecurity, cloud programming, and AI. Really excited to see what more AI can achieve in the future and how it may potentially affect our lives.
 
-Coding
-======
+**Coding Languages**
+
 <table style="width:100%; border-collapse: collapse;">
   <tr>
-    <td style="width:20%; text-align: center;"><strong>Python3</strong></td>
+    <td style="width:20%; text-align: center;"><strong>Python</strong></td>
     <td style="width:20%; text-align: center;"><strong>C</strong></td>
-    <td style="width:20%; text-align: center;"><strong>JS</strong></td>
-    <td style="width:20%; text-align: center;"><strong>Solidity</strong></td>
-    <td style="width:20%; text-align: center;"><strong>GO</strong></td>
+    <td style="width:20%; text-align: center;"><strong>Java</strong></td>
+    <td style="width:20%; text-align: center;"><strong>C#</strong></td>
+    <td style="width:20%; text-align: center;"><strong>HTML</strong></td>
   </tr>
   <tr>
-    <td style="width:20%; text-align: center;"><img src="https://github.com/devicons/devicon/blob/master/icons/python/python-original.svg" title="Python" alt="Python" width="55" height="55"/></td>
-    <td style="width:20%; text-align: center;"><img src="https://github.com/devicons/devicon/blob/master/icons/c/c-original.svg" title="C" alt="C" width="55" height="55"/></td>
-    <td style="width:20%; text-align: center;"><img src="https://github.com/devicons/devicon/blob/master/icons/javascript/javascript-original.svg" title="JavaScript" alt="JavaScript" width="55" height="55"/></td>
-    <td style="width:20%; text-align: center;"><img src="https://github.com/devicons/devicon/blob/master/icons/solidity/solidity-original.svg" title="Solidity" alt="Solidity" width="55" height="55"/></td>
-    <td style="width:20%; text-align: center;"><img src="https://github.com/devicons/devicon/blob/master/icons/go/go-original-wordmark.svg" title="GO" alt="GO" width="55" height="55"/></td>
+    <td style="width:20%; text-align: center;"><img src='/aboutme/images/python.jpg' title="Python" alt="Python" width="55" height="55"/></td>
+    <td style="width:20%; text-align: center;"><img src='/aboutme/images/C.png' title="C" alt="C" width="55" height="55"/></td>
+    <td style="width:20%; text-align: center;"><img src='/aboutme/images/java.png' title="Java" alt="Java" width="55" height="55"/></td>
+    <td style="width:20%; text-align: center;"><img src='/aboutme/images/C#.png' title="C#" alt="C#" width="55" height="55"/></td>
+    <td style="width:20%; text-align: center;"><img src='/aboutme/images/HTML.png' title="HTML" alt="HTML" width="55" height="55"/></td>
   </tr>
 </table>
   
