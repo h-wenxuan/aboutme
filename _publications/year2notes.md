@@ -15,17 +15,17 @@ Access module notes [here](https://h-wenxuan.github.io/aboutme/files/IE0005Notes
 
 **Data Structures and Algorithms in Python (IE2108)**
 
-
+In this important module, we learnt about the different types of sorting methods and the time efficiency of each of them. Furthermore, we also learnt about abstract data types such as stacks and queue and binary search trees, as well as graphs. However, the most important concepts would be breadth-first search and depth-first search, as well as Dijkstra’s and Kruskal’s Algorithm which are the different ways a code can search through a variety of nodes. 
 Access module notes [here](https://h-wenxuan.github.io/aboutme/files/IE2108Notes.pdf)
 
 **Signals and Systems (IE2110)**
 
-
+This module allows us to learn about the task of processing, modulating and transmitting the signal, as well as the properties of systems. Discrete-Time and Continuous-Time Linear Time-Invariant (LTI) Systems are important as we study their properties and the correlation between them. Another big chapter in this module is also the Fourier Series and Transform where a lot of calculations are involved. Nyquist Sampling Rate and Modulation are also covered. 
 Access module notes [here](https://h-wenxuan.github.io/aboutme/files/IE2110Notes.pdf)
 
 **Engineering Math 1 (IE2106)**
 
-
+Concepts include: Probability, Statistics (Poisson and Binomial Distribution, Hypothesis Testing), Nonlinear Equations, Numerical Methods for Differential Equations, Laplace Transform, Partial Differential Equations.
 Access module notes [here](https://h-wenxuan.github.io/aboutme/files/IE2106Notes.pdf)
 
 
@@ -38,11 +38,11 @@ This module teaches us about how to choose suitable software process model for t
 
 **Computer Communications (IE3017)**
 
-
+This module helped me gain a deeper understanding of how the network around us has worked. We touched on the TCP/IP model and mainly what the functions of the physical, link, network and transport layer does. It is a very useful and interesting topic as we learn how a WIFI connection is made and how information is sent in the form of packets from one computer to another. This topic is also useful in the cybersecurity industry when learning about how attackers want to intercept or monitor packets that are transmitting from one end to another. 
 Access module notes [here](https://h-wenxuan.github.io/aboutme/files/ComputerCommNotes-compressed.pdf)
 
 **Engineering Math 2 (IE2107)**
 
-
+Concepts include: Matrices (Determinants of Matrices, Elementary Matrices, Diagonalisation of Matrices), Complex Numbers (Limit and Continuity of complex numbers), Analytic Functions, Complex Integration, Vectors (Divergence, Curl, Flux).
 Access module notes [here](https://h-wenxuan.github.io/aboutme/files/EngineeringMath2Notes.pdf)
 
