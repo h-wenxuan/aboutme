@@ -7,11 +7,9 @@ redirect_from:
   - /about.html
 ---
 
-👩🏻‍💻 I am a year 3 Infomation Engineering and Media student in Nanyang Technological University.
+👩🏻‍💻 I am a Final Year Information Engineering and Media student at Nanyang Technological University, Singapore.
 
-🐨 I'm currently waiting to go on exchange in UNSW next semester and I can't wait to immerse myself in their culture and experience the unique teaching styles they offer. 
-
-🔎 My interests lie in cybersecurity, cloud programming, and AI. Really excited to see what more AI can achieve in the future and how it may potentially affect our lives.
+🔎 I am passionate about cybersecurity and eager to begin my career in this field, with strong interests in vulnerability assessments, cyber threat intelligence and mitigating security risks. Alongside my focus on cybersecurity, I am also fascinated by how AI will shape the future of security, both in strengthening defenses and creating new challenges.
 
 Languages and Tools
 ======
